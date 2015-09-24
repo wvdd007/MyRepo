@@ -19,39 +19,34 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="D:\Antor\acceptanceCriterion.cpp" />
-    <ClCompile Include="D:\Antor\localSearch.cpp" />
-    <ClCompile Include="D:\Antor\main.cpp" />
-    <ClCompile Include="D:\Antor\metropolisAcceptanceCriterion.cpp" />
-    <ClCompile Include="D:\Antor\searchAlgorithm.cpp" />
-    <ClCompile Include="D:\Antor\searchOperator.cpp" />
-    <ClCompile Include="D:\Antor\tour.cpp" />
-    <ClCompile Include="D:\Antor\tourCreator.cpp" />
-    <ClCompile Include="D:\Antor\tourEvaluator.cpp" />
-    <ClCompile Include="D:\Antor\twoOptSwapFirstImprove.cpp" />
-    <ClCompile Include="D:\Antor\twoOptSwapRand.cpp" />
+    <ClCompile Include="acceptanceCriterion.cpp" />
+    <ClCompile Include="localSearch.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="metropolisAcceptanceCriterion.cpp" />
     <ClCompile Include="problem.cpp" />
+    <ClCompile Include="searchAlgorithm.cpp" />
+    <ClCompile Include="searchOperator.cpp" />
+    <ClCompile Include="tour.cpp" />
+    <ClCompile Include="tourCreator.cpp" />
+    <ClCompile Include="tourEvaluator.cpp" />
+    <ClCompile Include="twoOptSwapFirstImprove.cpp" />
+    <ClCompile Include="twoOptSwapRand.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="D:\Antor\acceptanceCriterion.h" />
-    <ClInclude Include="D:\Antor\localSearch.h" />
-    <ClInclude Include="D:\Antor\metropolisAcceptanceCriterion.h" />
-    <ClInclude Include="D:\Antor\searchAlgorithm.h" />
-    <ClInclude Include="D:\Antor\searchOperator.h" />
-    <ClInclude Include="D:\Antor\tour.h" />
-    <ClInclude Include="D:\Antor\tourEvaluator.h" />
-    <ClInclude Include="D:\Antor\twoOptSwapFirstImprove.h" />
-    <ClInclude Include="D:\Antor\twoOptSwapRand.h" />
+    <ClInclude Include="acceptanceCriterion.h" />
+    <ClInclude Include="localSearch.h" />
+    <ClInclude Include="metropolisAcceptanceCriterion.h" />
     <ClInclude Include="problem.h" />
+    <ClInclude Include="searchAlgorithm.h" />
+    <ClInclude Include="searchOperator.h" />
+    <ClInclude Include="tour.h" />
+    <ClInclude Include="tourEvaluator.h" />
+    <ClInclude Include="twoOptSwapFirstImprove.h" />
+    <ClInclude Include="twoOptSwapRand.h" />
   </ItemGroup>
   <ItemGroup>
-    <Text Include="D:\Antor\city.txt" />
-    <Text Include="D:\Antor\city1000.txt">
-      <DeploymentContent>true</DeploymentContent>
-    </Text>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="D:\Antor\Makefile" />
+    <Text Include="city.txt" />
+    <Text Include="city1000.txt" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{EA3B33CD-3846-4E02-A624-AB9810546D1B}</ProjectGuid>
