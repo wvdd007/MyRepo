@@ -15,9 +15,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="problem.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="acceptanceCriterion.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -28,6 +25,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="metropolisAcceptanceCriterion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="problem.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="searchAlgorithm.cpp">
@@ -53,9 +53,6 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="problem.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="acceptanceCriterion.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -63,6 +60,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="metropolisAcceptanceCriterion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="problem.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="searchAlgorithm.h">
