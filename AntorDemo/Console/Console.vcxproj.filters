@@ -51,6 +51,15 @@
     <ClCompile Include="twoOptSwapRand.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="main2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="distanceBasedTourEvaluator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="nullLogger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="acceptanceCriterion.h">
@@ -83,9 +92,34 @@
     <ClInclude Include="twoOptSwapRand.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="main2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="distanceBasedTourEvaluator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="countingSearchOperator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="logger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="coloredLogger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="nullLogger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="fileLogger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Text Include="city.txt" />
     <Text Include="city1000.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="searchOperator.cd" />
+    <None Include="logger.cd" />
   </ItemGroup>
 </Project>

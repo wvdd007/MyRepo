@@ -16,8 +16,8 @@ class tourEvaluator{
 public:
 	tourEvaluator(problem* problem);
 
-    virtual double evaluateTour(tour *t);
-    virtual int compare(tour *tour1, tour *tour2); //RETURNS -1 when tour1 is "worse" than tour2, 0 when they are "equal" and 1 when tour1 is better than tour2.
+    virtual double evaluateTour(tour *t) = 0 ;
+    int compare(tour *tour1, tour *tour2); //RETURNS -1 when tour1 is "worse" than tour2, 0 when they are "equal" and 1 when tour1 is better than tour2.
     
 protected:
 	problem* _problem;

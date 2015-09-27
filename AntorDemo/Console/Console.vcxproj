@@ -20,9 +20,12 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="acceptanceCriterion.cpp" />
+    <ClCompile Include="distanceBasedTourEvaluator.cpp" />
     <ClCompile Include="localSearch.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="main2.cpp" />
     <ClCompile Include="metropolisAcceptanceCriterion.cpp" />
+    <ClCompile Include="nullLogger.cpp" />
     <ClCompile Include="problem.cpp" />
     <ClCompile Include="searchAlgorithm.cpp" />
     <ClCompile Include="searchOperator.cpp" />
@@ -34,8 +37,15 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="acceptanceCriterion.h" />
+    <ClInclude Include="coloredLogger.h" />
+    <ClInclude Include="countingSearchOperator.h" />
+    <ClInclude Include="distanceBasedTourEvaluator.h" />
+    <ClInclude Include="fileLogger.h" />
     <ClInclude Include="localSearch.h" />
+    <ClInclude Include="logger.h" />
+    <ClInclude Include="main2.h" />
     <ClInclude Include="metropolisAcceptanceCriterion.h" />
+    <ClInclude Include="nullLogger.h" />
     <ClInclude Include="problem.h" />
     <ClInclude Include="searchAlgorithm.h" />
     <ClInclude Include="searchOperator.h" />
@@ -47,6 +57,10 @@
   <ItemGroup>
     <Text Include="city.txt" />
     <Text Include="city1000.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="logger.cd" />
+    <None Include="searchOperator.cd" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{EA3B33CD-3846-4E02-A624-AB9810546D1B}</ProjectGuid>

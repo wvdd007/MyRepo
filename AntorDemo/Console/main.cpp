@@ -19,6 +19,7 @@
 #include "twoOptSwapRand.h"
 #include <ctime>
 #include "localSearch.h"
+#include "distanceBasedTourEvaluator.h"
 
 using namespace std;
 
@@ -105,7 +106,7 @@ int main(int argc, char** argv) {
 	}
     
 	tour *t = new tour(prob);
-	tourEvaluator *te = new tourEvaluator(prob);
+	tourEvaluator *te = new distanceBasedTourEvaluator(prob);
 	double initialEvaluation = te->evaluateTour(t);
     metropolisAcceptanceCriterion *mac = new metropolisAcceptanceCriterion(te, prob);
     searchOperator *so = new twoOptSwapRand();
