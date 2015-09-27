@@ -51,13 +51,13 @@
     <ClCompile Include="twoOptSwapRand.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="main2.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="distanceBasedTourEvaluator.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="nullLogger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main2.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -92,9 +92,6 @@
     <ClInclude Include="twoOptSwapRand.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="main2.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="distanceBasedTourEvaluator.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -111,6 +108,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="fileLogger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="main2.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
